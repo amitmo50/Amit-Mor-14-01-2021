@@ -1,0 +1,48 @@
+h1, h2, h3, table, ul, li {
+    font-family: 'Potta One', cursive;
+}
+
+h1.heading {
+    text-align: center;
+}
+
+ul.nav-header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    cursor: pointer;
+}
+
+ul.nav-header li a:hover {
+    color: #FFCC00;
+}
+
+ul.nav-header {
+    background-color: #111;
+    padding: 0;
+}
+
+.messaging-system {
+    padding: 20px;
+    margin: 0;
+}
+
+ul.nav-header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+.content {
+    background-color: #FFF;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 414px) {
+    li{
+        font-size: 0.7rem;
+    }
+}

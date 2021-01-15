@@ -1,0 +1,21 @@
+button {
+    margin: 4% 0 0 0;
+    background-color: #111;
+    color: #fff;
+    font-family: 'Potta One', cursive;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+
+
+}
+.root-form {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

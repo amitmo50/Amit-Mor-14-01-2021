@@ -1,0 +1,68 @@
+
+.all-mails-tab {
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+
+.all-mails-tab button {
+    background-color: inherit;
+    color: #111;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.all-mails-tab button:hover {
+    background-color: #ddd;
+}
+
+.all-mails-tab button.active {
+    background-color: #ccd;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+    font-size: initial;
+}
+  
+table tr {
+    border-bottom: 1px solid #282828;
+}
+  
+table td, table th{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.fa-trash {
+    color:red;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 414px) {
+    table{
+        font-size: 0.7rem;
+    }
+    .all-mails-tab button {
+        font-size: 0.8rem;
+    }
+}
